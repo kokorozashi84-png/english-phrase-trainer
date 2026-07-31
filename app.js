@@ -1,4 +1,5 @@
 alert("app.js loaded");
+console.log(phrases);
 
 let current = 0;
 
