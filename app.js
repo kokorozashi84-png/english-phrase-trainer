@@ -1,6 +1,10 @@
 alert("app.js loaded");
+
+window.onerror = function(msg){
+    alert(msg);
+};
+
 alert(typeof phrases);
-alert(phrases.length);
 
 let current = 0;
 
