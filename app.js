@@ -1,7 +1,9 @@
 let current = 0;
 
-const learned = JSON.parse(
-  localStorage.getItem("learned") || "[]"
+const learned =
+JSON.parse(
+localStorage.getItem("learned")
+|| "[]"
 );
 
 function saveProgress() {
