@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>English Phrase Trainer</title>
+
+manifest.json
+style.css
+
+<meta name="theme-color" content="#4f46e5">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>English Phrase Trainer</h1>
+
+<div class="tabs">
+<button onclick="showTab('card')">カード</button>
+<button onclick="showTab('quiz')">クイズ</button>
+</div>
+
+<div id="cardTab">
+
+<div class="card">
+
+<h2 id="meaning"></h2>
+
+<button onclick="showAnswer()">
+答えを見る
+</button>
+
+<div id="answer"></div>
+
+<button onclick="nextPhrase()">
+次へ
+</button>
+
+</div>
+
+</div>
+
+<div id="quizTab" style="display:none">
+
+<div class="card">
+
+<h2 id="quizMeaning"></h2>
+
+<div id="options"></div>
+
+<div id="quizResult"></div>
+
+</div>
+
+</div>
+
+<p class="progress">
+学習済み:
+<span id="learnedCount">0</span>
+</p>
+
+</div>
+
+data.jsscript>
+app.jsscript>
+
+</body>
+</html>
