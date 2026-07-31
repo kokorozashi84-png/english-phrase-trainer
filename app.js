@@ -1,3 +1,5 @@
+alert("app.js loaded");
+
 let current = 0;
 
 const learned =
