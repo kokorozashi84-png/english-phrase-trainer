@@ -6,8 +6,8 @@
 
 <title>English Phrase Trainer</title>
 
-manifest.json
-style.css
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
 
 <meta name="theme-color" content="#4f46e5">
 </head>
@@ -24,36 +24,32 @@ style.css
 </div>
 
 <div id="cardTab">
+  <div class="card">
 
-<div class="card">
+    <h2 id="meaning"></h2>
 
-<h2 id="meaning"></h2>
+    <button onclick="showAnswer()">
+      答えを見る
+    </button>
 
-<button onclick="showAnswer()">
-答えを見る
-</button>
+    <div id="answer"></div>
 
-<div id="answer"></div>
+    <button onclick="nextPhrase()">
+      次へ
+    </button>
 
-<button onclick="nextPhrase()">
-次へ
-</button>
-
-</div>
-
+  </div>
 </div>
 
 <div id="quizTab" style="display:none">
 
-<div class="card">
+  <div class="card">
+    <h2 id="quizMeaning"></h2>
 
-<h2 id="quizMeaning"></h2>
+    <div id="options"></div>
 
-<div id="options"></div>
-
-<div id="quizResult"></div>
-
-</div>
+    <div id="quizResult"></div>
+  </div>
 
 </div>
 
