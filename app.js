@@ -1,5 +1,5 @@
 alert("app.js loaded");
-console.log(phrases);
+alert(typeof phrases);
 
 let current = 0;
 
