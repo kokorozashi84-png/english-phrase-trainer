@@ -1,5 +1,6 @@
 alert("app.js loaded");
 alert(typeof phrases);
+alert(phrases.length);
 
 let current = 0;
 
